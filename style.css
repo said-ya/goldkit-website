@@ -1,0 +1,213 @@
+/* Основные стили */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Шапка сайта */
+header {
+  background-color: #FFD700;
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Главная секция */
+#hero {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+#hero button {
+  background-color: #FFD700;
+  color: #333;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#hero button:hover {
+  background-color: #333;
+  color: #FFD700;
+}
+
+/* Секция "О монете" */
+#about {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Секция команды */
+#team {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 200px;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.member h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px 0;
+}
+
+.member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Секция калькулятора */
+#calculator {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#calculator h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#calculator input {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#calculator button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #FFD700;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#calculator button:hover {
+  background-color: #333;
+  color: #FFD700;
+}
+
+#calculator #result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Секция контактов */
+#contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2rem;
+}
+
+#contact a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
